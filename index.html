@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Web App</title>
+</head>
+<body>
+    <h3>🚀 Welcome to our localStorage Explainer!</h3>
+    <p>Our current user is: <span id="user"></span></p>
+    <p>Their favorite animal is: <span id="animal"></span></p>
+    <!-- SCRIPT TAG FOR CLIENT SIDE JS; LOCAL STORAGE EXPLAINER EDITION-->
+    <script>
+        // target user, animal spans
+        let userSpan = document.getElementById('user')
+        let animalSpan = document.getElementById('animal')
+
+        userSpan.innerText = localStorage.getItem('user')
+        animalSpan.innerText = localStorage.getItem('animal')
+    </script>
+</body>
+</html>
