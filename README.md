@@ -2,8 +2,8 @@
 The `localStorage web api` allows values to be stored in key value pairs directly in our browser/client. 
 
 ## Recordings:
-* Part 1
-* Part 2
+* [Part 1](https://www.loom.com/share/2d3f609857524491b48b5e03570a899a)
+* [Part 2](https://www.loom.com/share/d4e4a972687347acb7971d6700f28053)
 
 ## Additional Resources
 Additional resources for including and using `localStorage`, as well as the availability of other web/client based APIs:

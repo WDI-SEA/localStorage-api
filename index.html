@@ -12,12 +12,15 @@
     <p>Their favorite animal is: <span id="animal"></span></p>
     <!-- SCRIPT TAG FOR CLIENT SIDE JS; LOCAL STORAGE EXPLAINER EDITION-->
     <script>
+        localStorage.setItem('animal', 'orca whale')
         // target user, animal spans
         let userSpan = document.getElementById('user')
         let animalSpan = document.getElementById('animal')
 
         userSpan.innerText = localStorage.getItem('user')
         animalSpan.innerText = localStorage.getItem('animal')
+
+        localStorage.clear()
     </script>
 </body>
 </html>
